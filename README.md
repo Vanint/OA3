@@ -9,4 +9,6 @@ The codes include two versions:
 
 The diagonal variant of our algorithms are also included. 
 
-The download links of datasets: https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/ and http://www.kdd.org/kdd-cup/view/kdd-cup-2008/Data.
+The download links of datasets: 
+(1) https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/; 
+(2) http://www.kdd.org/kdd-cup/view/kdd-cup-2008/Data.
