@@ -8,3 +8,5 @@ The codes include two versions:
 (2) ACOAL_cost for the weighted cost of mistakes.
 
 The diagonal variant of our algorithms are also included. 
+
+The download links of datasets: https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/ and http://www.kdd.org/kdd-cup/view/kdd-cup-2008/Data.
