@@ -9,7 +9,7 @@ Adaptive Cost-sensitive Online Asymmetric Active Learning with Budgeted Imbalanc
 
 (2) ACOAL_cost for the weighted cost of mistakes.
 
-The diagonal variant of our algorithms are also included. 
+The diagonal version for ACOAL is also included. 
 
 # The download links of datasets: 
 
