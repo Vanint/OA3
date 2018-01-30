@@ -1,4 +1,4 @@
-# ACOAL
+# OA3
 Online Adaptive Asymmetric Active Learning for Budgeted Imbalanced Data 
 
 
