@@ -1,5 +1,5 @@
-function [classifier, cost, sen, spe, acc, que, run_time, TMs, P,idx] = ACOAL_cost(Y, X, options, id_list)
-% ACOAL_cost: Adaptive Cost-sensitive Online Asymmetric Active Learning 
+function [classifier, cost, sen, spe, acc, que, run_time, TMs, P,idx] = OA3_cost(Y, X, options, id_list)
+% OA3_cost: Online Adaptive Asymmetric Active Learning 
 %---------------------------------------------------------
 % Input:
 %    Y:  the vector of lables
@@ -21,7 +21,7 @@ function [classifier, cost, sen, spe, acc, que, run_time, TMs, P,idx] = ACOAL_co
 %% initialize parameters
 B = options.B;        % budgets
 cost_p = options.cost_p;     % c_p
-cost_n = options.cost_n;     % c¡ª¡ª
+cost_n = options.cost_n;     % cÂ¡ÂªÂ¡Âª
 rho = options.rho;    % \rho
 rho_m = max(1,rho);   % \rho_max
 delta_p = options.delta_p;    % positive query parameters
