@@ -9,7 +9,7 @@ Online Adaptive Asymmetric Active Learning for Budgeted Imbalanced Data
 
 (2) OA3_cost for the weighted cost of mistakes.
 
-The diagonal variant for ACOAL is also included. 
+The diagonal variant for OA3 is also included. 
 
 # The download links of datasets: 
 
