@@ -1,5 +1,5 @@
-function [classifier, summ, sen, spe, acc, que, run_time, TMs, P,idx] = ACOAL_sum(Y, X, options, id_list)
-% ACOAL_sum: Adaptive Cost-sensitive Online Asymmetric Active Learning 
+function [classifier, summ, sen, spe, acc, que, run_time, TMs, P,idx] = OA3_sum(Y, X, options, id_list)
+% OA3_sum: Online Adaptive Asymmetric Active Learning 
 %---------------------------------------------------------
 % Input:
 %    Y:  the vector of lables
@@ -139,11 +139,11 @@ for t = 1:length(ID),
         TMs=[TMs run_time];    
     end
 end
-summ = alpha_p*sen + alpha_n*spe;  % weighted Sum
-fprintf(1,'The sum of weighted sensitivity and specificity = %d\n', summ);  
+acc=1-err/(t_p+t_n);      % accuracy
 sen=(t_p-err_p)/t_p;      % sensitivity
 spe=(t_n-err_n)/t_n;      % specificity
-acc=1-err/(t_p+t_n);      % accuracy
+summ = alpha_p*sen + alpha_n*spe;  % weighted Sum
+fprintf(1,'The sum of weighted sensitivity and specificity = %d\n', summ);  
 que = b / B;              % query ratio
 classifier.w = w;         % the current predicitive vector
 classifier.covariance = covariance;  % the current covariance matrix
