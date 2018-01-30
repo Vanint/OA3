@@ -13,6 +13,6 @@ The diagonal variant for OA3 is also included.
 
 # The download links of datasets: 
 
-(1) https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/; 
+(1) https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets; 
 
 (2) http://www.kdd.org/kdd-cup/view/kdd-cup-2008/Data.
