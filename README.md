@@ -5,7 +5,7 @@ The codes will be released soon.
 
 # Supplementary 
 
-This supplemental file provides the proofs of theorems and additional experiment results.
+This supplemental file provides the proofs for all theorems and additional experiment results.
 
 # Donwload links for Datasets: 
 
