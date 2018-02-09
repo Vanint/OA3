@@ -3,7 +3,7 @@ Online Adaptive Asymmetric Active Learning for Budgeted Imbalanced Data
 
 The codes will be released soon. 
 
-# Supplementary:
+# Supplementary 
 
 This supplemental file provides the proofs of theorems and additional experiment results.
 
